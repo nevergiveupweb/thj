@@ -11,10 +11,8 @@ var words=[
     '与君重逢',
     '一日不见兮',
     '思之若狂',
-    '好想回到那个夏天',
     '趴在桌子上偷偷看你',
-    '偷偷表白一个叫dmz的女孩',
-    '你曾是我灰色人生中的一道彩虹',
+    '偷偷表白一个叫大屁杰的女孩',
     '柳絮空缱绻',
     '南风知不知',
     '我见青山多妩媚',
@@ -26,15 +24,12 @@ var words=[
     '我余光中都是你',
     '人生自是有情痴',
     '此恨不关风与月',
-    '因为你，我多少适应了这个世界',
     '春蚕到死丝方尽',
     '蜡炬成灰泪始干',
-    '今夜何夕',
-    '见此良人',
+    '今夜何夕,见此良人',
     '愿我如星君如月',
     '夜夜流光相皎洁',
-    '情不所起',
-    '一往而深',
+    '情不所起,一往而深',
     '玲珑骰子安红豆',
     '入骨相思知不知',
     '多情只有春庭月',
@@ -102,7 +97,7 @@ let textone = document.querySelector('.textone').querySelector('h1');
       let textthree = document.querySelector('.textthree').querySelector('h1');
 
       setTimeout(function(){
-        textone.innerHTML = '杰宝，这是我为你做的星空，希望你喜欢';
+        textone.innerHTML = '杰宝，这是我为你做的晚霞，希望你喜欢';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           texttwo.style.color = '#E8F9FD';
